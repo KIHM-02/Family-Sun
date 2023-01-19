@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="styles/index_style.css">
+    <link rel="stylesheet" href="styles/index_style.css">    
 
     <title>Calentadores</title>
 </head>
@@ -18,9 +18,35 @@
     <section class="contenedor">
         <nav>
             <ul>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contactanos</a></li>
+                <li>
+                    <a id="linkNosotros">Nosotros</a>
+                    
+                    <dialog id="nosotros-modal">
+                        <h2>Soy el modal</h2>
+                        <p>aqui hay un texto</p>
+                        <button id="btnCerrar">Cerrar modal</button>
+                    </dialog>
+
+                </li>
+
+                <li>
+                    <a id="linkProductos">Productos</a>
+
+                    <dialog id="productos-modal">
+                        <h2>Soy el modal</h2>
+                        <p>aqui hay un texto</p>
+                        <button id="btnCerrar">Cerrar modal</button>
+                    </dialog>
+                </li>
+
+                <li>
+                    <a id="linkContacto">Contactanos</a>
+                    <dialog id="contactanos-modal">
+                        <h2>Soy el modal</h2>
+                        <p>aqui hay un texto</p>
+                        <button id="btnCerrar">Cerrar modal</button>
+                    </dialog>
+                </li>
             </ul>
         </nav>
     
@@ -163,6 +189,8 @@
             <p>Contactanos para poder cotizar con nosotros</p>
         </footer>
     </section>
+
+    <script src="js/modal.js"></script>
 
 </body>
 </html>

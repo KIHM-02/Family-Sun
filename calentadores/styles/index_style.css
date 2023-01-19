@@ -36,6 +36,10 @@ nav li a{
     font-size: 1.5vw;
 }
 
+nav li a:hover{
+    cursor: pointer;
+}
+
 header{
     width: 100%;
     display: flex;
