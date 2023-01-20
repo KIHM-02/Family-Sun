@@ -222,3 +222,19 @@ footer p{
     padding-bottom: 1vw;
     color: white;
 }
+
+/*Seccion de modales */
+
+.modal::backdrop{
+    background-color: rgba(0, 0, 0, .55);
+}
+
+.modal{
+    width: 50%;
+}
+
+.modal a{
+    color: black;
+}
+
+
